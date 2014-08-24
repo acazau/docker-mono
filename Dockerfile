@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 FROM acazau/docker-base
-=======
-FROM acazau\docker-base
->>>>>>> d1fba1bd4c1455ce50321c456b9c86b6fb40362f
+
 RUN apt-get update
 RUN apt-get install -y mono-devel
 
