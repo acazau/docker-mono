@@ -1,4 +1,4 @@
-FROM ubuntu:13.10
+FROM acazau/docker-base
 RUN apt-get update
 RUN apt-get install -y mono-devel
 
